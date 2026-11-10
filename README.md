@@ -17,6 +17,8 @@
 
 An end-to-end machine learning system that **predicts which customers are about to leave**, **explains why**, and serves the result in a **Streamlit web app** built for retention teams.
 
+**🚀 Live demo:** <https://customer-churn-prediction-kbmwaupf6erfimkhvffmmz.streamlit.app> (the app may take a moment to wake up after a period of inactivity)
+
 > **In one sentence:** five models benchmarked on the Telco Customer Churn dataset, the best one tuned and explained with SHAP, then shipped as a Dockerised multipage app with real-time scoring and drift monitoring.
 
 ---
@@ -260,7 +262,6 @@ On the first boot the app checks the saved model against the installed scikit-le
 
 - The dataset is a static snapshot: no dates, so seasonality and time-to-churn cannot be modelled.
 - Scores are correlations, not causes — the effect of a retention action should be measured with an A/B test.
-- Docker image and Streamlit Cloud deployment are configured but should be validated in your own environment.
 - Ideas: probability calibration, uplift modelling to target *persuadable* customers, FastAPI endpoint for CRM integration, experiment tracking with MLflow.
 
 ## License
