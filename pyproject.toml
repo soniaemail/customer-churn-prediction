@@ -9,4 +9,5 @@ ignore = ["E501"]  # long lines are tolerated in Streamlit layout code
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["."]  # lets a bare `pytest` import the `src` package
 filterwarnings = ["ignore::UserWarning", "ignore::FutureWarning"]
