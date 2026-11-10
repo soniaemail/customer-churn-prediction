@@ -93,7 +93,7 @@ st.markdown(
 
 ui.section("Author")
 author = ui.AUTHOR
-st.markdown(
-    f"**{author['name']}** — {author['role']}  \n"
-    f"[GitHub]({author['github']}) · [LinkedIn]({author['linkedin']})"
-)
+links = [f"[GitHub]({author['github']})"]
+if author.get("linkedin"):
+    links.append(f"[LinkedIn]({author['linkedin']})")
+st.markdown(f"**{author['name']}** — {author['role']}  \n" + " · ".join(links))

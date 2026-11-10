@@ -65,10 +65,10 @@ RISK_LEVELS: dict[str, dict[str, str]] = {
 
 # Shown on the About page - replace with your own details
 AUTHOR: dict[str, str] = {
-    "name": "Your Name",
+    "name": "soniaemail",
     "role": "Data Scientist · Machine Learning Engineer",
-    "github": "https://github.com/your-username",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
+    "github": "https://github.com/soniaemail",
+    "linkedin": "",  # optional: add your LinkedIn profile URL
 }
 
 _CSS = f"""

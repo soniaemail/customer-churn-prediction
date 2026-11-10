@@ -179,7 +179,7 @@ customer-churn-prediction/
 Requirements: Python 3.11 or newer.
 
 ```bash
-git clone https://github.com/your-username/customer-churn-prediction.git
+git clone https://github.com/soniaemail/customer-churn-prediction.git
 cd customer-churn-prediction
 
 python -m venv .venv
@@ -226,7 +226,7 @@ The image is based on `python:3.11-slim`, trains the model at build time (so the
 2. Go to <https://share.streamlit.io> and sign in with GitHub.
 3. Click **Create app → Deploy a public app from GitHub**.
 4. Fill in the form:
-   - **Repository**: `your-username/customer-churn-prediction`
+   - **Repository**: `soniaemail/customer-churn-prediction`
    - **Branch**: `main`
    - **Main file path**: `main.py`
 5. Open **Advanced settings** and select **Python 3.11**.
@@ -269,4 +269,4 @@ Released under the [MIT License](LICENSE).
 
 ## Author
 
-**Your Name** — [GitHub](https://github.com/your-username) · [LinkedIn](https://www.linkedin.com/in/your-profile)
+**soniaemail** — [GitHub](https://github.com/soniaemail)
