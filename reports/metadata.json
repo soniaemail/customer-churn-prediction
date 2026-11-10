@@ -1,0 +1,46 @@
+{
+  "best_model": "Logistic Regression",
+  "selection_metric": "cv_roc_auc",
+  "tuned": false,
+  "best_params": {},
+  "baseline_metrics": {
+    "accuracy": 0.7991483321504613,
+    "precision": 0.6531986531986532,
+    "recall": 0.5187165775401069,
+    "f1": 0.5782414307004471,
+    "roc_auc": 0.8423209072825442
+  },
+  "baseline_cv_roc_auc": 0.8460326487704695,
+  "final_metrics": {
+    "accuracy": 0.7991483321504613,
+    "precision": 0.6531986531986532,
+    "recall": 0.5187165775401069,
+    "f1": 0.5782414307004471,
+    "roc_auc": 0.8423209072825442
+  },
+  "final_cv_roc_auc": 0.8460326487704695,
+  "decision_threshold": 0.29,
+  "threshold_metrics": {
+    "accuracy": 0.7494677075940384,
+    "precision": 0.5190562613430127,
+    "recall": 0.7647058823529411,
+    "f1": 0.6183783783783784,
+    "roc_auc": 0.8423209072825442
+  },
+  "threshold_confusion_matrix": [
+    [
+      770,
+      265
+    ],
+    [
+      88,
+      286
+    ]
+  ],
+  "n_train": 5634,
+  "n_test": 1409,
+  "churn_rate": 0.2653698707936959,
+  "trained_at": "2026-11-10T12:23:51.299890+00:00",
+  "sklearn_version": "1.9.1",
+  "training_seconds": 21.0
+}

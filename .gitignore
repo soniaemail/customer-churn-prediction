@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Runtime output
+logs/
+*.tmp
+
+# Secrets / local config
+.env
+.streamlit/secrets.toml
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# NOTE: data/telco_customer_churn.csv, models/*.pkl and reports/* are small and
+# intentionally versioned so the app starts instantly after a clone and on
+# Streamlit Community Cloud. They are all reproducible with `python -m src.train`.
